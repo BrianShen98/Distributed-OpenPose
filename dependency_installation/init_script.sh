@@ -58,3 +58,9 @@ source .profile
 
 # install pyspark
 pip3 install pyspark
+
+#start master
+# sudo /opt/spark/sbin/start-master.sh
+
+#start slave
+# sudo /opt/spark/sbin/start-slave.sh spark://<master_ip>:7077
